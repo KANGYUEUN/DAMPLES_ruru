@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.scroll {
+    transform: translateX(-530px);
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+    background-color:  #1d9042;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+.scroll:hover {
+    cursor: pointer;
+}
